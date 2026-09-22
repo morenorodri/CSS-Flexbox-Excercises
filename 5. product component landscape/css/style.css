@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+        background-color: lightblue;
+}
+
+
+.product {
+    display: flex;
+    border-radius: .25rem;
+    width: 80rem; height: 40rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: white;
+
+    
+    figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 4rem;
+        width: 50%;
+            background-color: yellow;
+
+        .product-image {
+            margin: auto auto;
+            width: 100%;
+        }
+
+        figcaption {
+            align-self: end;
+            padding: 1rem;
+                font-size: 2rem;
+                font-weight: 500;
+                line-height: 2rem;
+        }
+    }
+
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 1.5rem;
+        padding: 4rem;
+        width: 50%;
+
+        .product-details {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+
+            .top-details {
+                display: flex;
+                flex-direction: column;
+                row-gap: .5rem;
+
+                .product-title {
+                        font-size: 3rem;
+                        font-weight: 800;
+                        line-height: 3rem;
+                }
+
+                .product-subtitle {
+                        font-size: 2rem;
+                        font-weight: 500;
+                        line-height: 2rem;
+                }
+
+            }
+        }
+
+        .product-description {
+                font-size: 1.5rem;
+                font-weight: 350;
+                line-height: 1.5;
+        }
+
+        .cta {
+            align-self: end;
+            padding: 1rem;
+            border: .125rem solid black;
+            border-radius: .125rem;
+                font-size: 1.5rem;
+                font-weight: 500;
+                line-height: 1.5rem;
+                background-color: white;
+                cursor: pointer;
+        }
+    }
+}
