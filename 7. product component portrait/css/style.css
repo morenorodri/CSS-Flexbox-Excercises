@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+        background-color: lightblue;
+}
+
+
+.product {
+    border-radius: .125rem;
+    width: 25rem; height: 45rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+figure {
+    align-content: center;
+    padding: 2rem;
+    height: 22.5rem;
+        background-color: yellow;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-id {
+    display: none;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 22.5rem;
+        background-color: white;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.top-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.product-title {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2rem;
+}
+
+.product-subtitle {
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 1.25rem;
+}
+
+.product-description {
+        font-size: 1.25rem;
+        font-weight: 400;
+}
+
+.product-price {
+    align-self: end;
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: 2.5rem;
+}
