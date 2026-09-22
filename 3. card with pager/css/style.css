@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+        background-color: aqua;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: .5rem;
+    overflow: hidden;
+    width: 25rem; height: 35rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: white;
+
+    
+    .card-details {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        height: 100%;
+
+        
+
+        .quote {
+                font-style: italic;
+                text-align: center;
+            
+        }
+
+        .author {
+                color: gray;
+        }
+
+        .quote, .author {
+                font-size: 1.5rem;
+                line-height: 1.5;
+        }
+
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        column-gap: 1rem;
+        padding: 2rem;
+        
+        
+        a {
+
+            .page-dot {
+                border-radius: 50%;
+                width: .75rem; height: .75rem;
+                    background-color: gray;
+
+                &:active {
+
+                        background-color: black;
+                }
+            }
+        }
+    }
+}
